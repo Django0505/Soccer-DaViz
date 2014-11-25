@@ -30,12 +30,16 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+
+
 d3.csv("SoccerStatsCSV.csv", function(error, data) {
   var ageNames = d3.keys(data[0]).filter(function(key) { return key !== "Attribute"; });
 
   data.forEach(function(d) {
     d.ages = ageNames.map(function(name) { return {name: name, value: +d[name]}; });
   });
+   
+
 
   x0.domain(data.map(function(d) { return d.State; }));
   x1.domain(ageNames).rangeRoundBands([0, x0.rangeBand()]);
