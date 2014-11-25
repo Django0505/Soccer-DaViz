@@ -30,12 +30,16 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.csv("SoccerStatsCSV.csv", function(error, data) {
-  var playerNames = d3.keys(data[0]).filter(function(key) { return key !== "Attribute"; });
 
+var soccer = d3.csv("SoccerStatsCSV.csv", function(error, data) {
+  console.log(data);
+  var playerNames = d3.keys(data[0]).filter(function(key) { return key !== "Attribute"; });
+  console.log(playerNames);
+  
   data.forEach(function(d) {
     d.Playerstats = playerNames.map(function(name) { return {name: name, value: +d[name]}; });
-  });
+    console.log(d.Playerstats);
+  });    
 
   x0.domain(data.map(function(d) { return d.Attribute; }));
   x1.domain(playerNames).rangeRoundBands([0, x0.rangeBand()]);
@@ -89,42 +93,44 @@ d3.csv("SoccerStatsCSV.csv", function(error, data) {
       .attr("dy", ".35em")
       .style("text-anchor", "end")
       .text(function(d) { return d; }); 
+   
 
 });
 
 
 
 
+//The updating button
 
+var soccer2 = d3.select("#slider")
+  .on('click',function(d){ 
+    
+d3.csv("StatsSoccer2010.csv", function(error, data) {
 
-
-
-/*
-
-d3.select("button")
-    .on("click", function() {
-
-d3.csv("SoccerStatsCSV2008.csv", function(error, data) {
+  console.log(data);
   var playerNames = d3.keys(data[0]).filter(function(key) { return key !== "Attribute"; });
-
+  console.log(playerNames);
+  
   data.forEach(function(d) {
     d.Playerstats = playerNames.map(function(name) { return {name: name, value: +d[name]}; });
-  });
+    console.log(d.Playerstats);
+  });    
 
   x0.domain(data.map(function(d) { return d.Attribute; }));
   x1.domain(playerNames).rangeRoundBands([0, x0.rangeBand()]);
   y.domain([0, d3.max(data, function(d) { return d3.max(d.Playerstats, function(d) { return d.value; }); })]);
 
-
-  svg.append("g")
+  svg
+      .append("g")
       .attr("class", "x axis")
       .attr("transform", "translate(0," + height + ")")
       .call(xAxis);
 
-  svg.append("g")
+  svg
+      .append("g")
       .attr("class", "y axis")
       .call(yAxis)
-    .append("text")
+      .append("text")
       .attr("transform", "rotate(-90)")
       .attr("y", 6)
       .attr("dy", ".71em")
@@ -133,70 +139,78 @@ d3.csv("SoccerStatsCSV2008.csv", function(error, data) {
 
   var state = svg.selectAll(".state")
       .data(data)
-    .enter().append("g")
+      .enter()
+      .append("g")
       .attr("class", "g")
       .attr("transform", function(d) { return "translate(" + x0(d.Attribute) + ",0)"; });
-
 
   state.selectAll("rect")
       .data(function(d) { return d.Playerstats; })
       .enter()
       .append("rect")
-      .transition() 
-      .duration(1000) 
-      .attr("width", x1.rangeBand()) 
+      .attr("width", x1.rangeBand())
       .attr("x", function(d) { return x1(d.name); })
       .attr("y", function(d) { return y(d.value); })
       .attr("height", function(d) { return height - y(d.value); })
-      .style("fill", function(d) { return color(d.name); })
-      
-      
+      .style("fill", function(d) { return color(d.name); });
 
   var legend = svg.selectAll(".legend")
       .data(playerNames.slice())
-    .enter().append("g")
+      .enter()
+      .append("g")
       .attr("class", "legend")
       .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
 
-  legend.append("rect")
+ legend
+      .append("rect")
       .attr("x", width - 18)
       .attr("width", 18)
       .attr("height", 18)
       .style("fill", color);
+      
 
-  legend.append("text")
+  legend
+      .append("text")
       .attr("x", width - 24)
       .attr("y", 9)
       .attr("dy", ".35em")
       .style("text-anchor", "end")
       .text(function(d) { return d; }); 
 
-});
-
-
-
-
+ 
 
 
 
 
 });
+});
 
 
+
+
+});
+/*
+$( "#slider" ).slider({ max: 50 });
+
+$( "#slider" ).slider({ min: 10 });
+
+
+
+$( "#slider" ).slider({
+  change: function( event, ui ) {
+   var selection = $( "#slider" ).slider( "value" );
+    console.log(selection);
+
+
+
+                //Width and height
+            var w = 500;
+            var h = 50;
+
+            //Data
+            var dataset = [];
+
+      dataset.push(selection);
+
+      console.log(dataset);
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-});

@@ -31,6 +31,10 @@ var svg = d3.select("body").append("svg")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> e1b3ded8b371805de57654d657a08d91dc8dbd10
 d3.csv("SoccerStatsCSV.csv", function(error, data) {
   console.log(data);
   var playerNames = d3.keys(data[0]).filter(function(key) { return key !== "Attribute"; });
@@ -115,9 +119,16 @@ d3.csv("SoccerStatsCSV2008.csv", function(error, data) {
   console.log(playerNames);
 	
   data.forEach(function(d) {
+<<<<<<< HEAD
     d.Playerstats = playerNames.map(function(name) { return {name: name, value: +d[name]}; });
     console.log(d.Playerstats);
   });    
+=======
+    d.ages = ageNames.map(function(name) { return {name: name, value: +d[name]}; });
+  });
+   
+
+>>>>>>> e1b3ded8b371805de57654d657a08d91dc8dbd10
 
   x0.domain(data.map(function(d) { return d.Attribute; }));
   x1.domain(playerNames).rangeRoundBands([0, x0.rangeBand()]);
