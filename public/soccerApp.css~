@@ -127,7 +127,6 @@ div.tooltip {
   font-family:"helvetica"; 
   //font-family: Georgia, Serif; 
   font-size: 35px;
-  color: #161916; 
-  font-weight: bold;
+  color: #161916;
 
 }
