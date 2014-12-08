@@ -155,7 +155,7 @@ d3.select("#slider")
   	var gameWeek = this.value.toString(); 
   	console.log(gameWeek) 
   	console.log(typeof gameWeek) 
-        $("#yearBox").html("<h3 class='gameText'> Game number: "+this.value+"</h3>") 
+        $("#yearBox").html("<h3 class='gameText'> Game week: "+this.value+"</h3>") 
 
 
   function Update(){
