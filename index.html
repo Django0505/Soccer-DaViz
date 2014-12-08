@@ -3,25 +3,83 @@
 <head>
 <link type="text/css" rel="stylesheet" href="soccerApp.css">
 
-<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script> 
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" ></script>
+<script src="lodash.js"></script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" ></script> 
+
+<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
  
-<script src="soccerApp.js"></script>
+<script src="soccerApp.js"></script> 
+
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
   <meta charset="utf-8">
-  <title>Soccer App</title>
+  <title>Soccer App</title> 
+
+
 
 </head>
 
-<div id="control">
-      <label>Show stats for </label><label id="year" name="year" type="text"></label>:
-      <form>
-      <input id="slider" type="range" name="slider" min="0" max="11" value="0" step="1"/>
-      </form>
-    </div>
+<body> 
+<nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Soccer Vis</a>
+        </div>
+        <div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
 
+
+
+
+
+<br><br>
+<center>
+	<div id="svgParent">
+			<center>
+				<div id="svg"> 
+
+				</div>
+			</center>
+	</div>
+</center> 
+<br><br>
+<center>
+	<div id="control">
+	      <label>Slider for Game number: </label><label id="year" name="year" type="text"></label>:
+	      <form>
+	      <input id="slider" type="range" name="slider" min="0" max="19" value="0" step="1"/>
+	      </form>  
+	</div> 
+
+
+<div id="yearBox"> 
+
+</div>
+</center> 
+ 
+<center> 
+<!-- 
+<div id="CheckList"> 
+<form>
+<input type="checkbox" name="chk_group" value="value1" />Cristiano Ronaldo<br />
+<input type="checkbox" name="chk_group" value="value2" />Lionel Messi<br />
+<input type="checkbox" name="chk_group" value="value3" />Zlatan Ibrahimovic<br /> 
+</form>
+</div> 
+--> 
+</center>
+  
 </body>
 
 </html>
