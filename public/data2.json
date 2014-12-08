@@ -8,145 +8,145 @@
      "team":"Manchester City",
       "statistics" : { 
 	 "0" : {
-            "appearances" :0,
-            "goals" :0, 
-            "assists": 0, 
-            "yellow" :0,
-            "red"  :0
+            "Appearances" :0,
+            "Goals" :0, 
+            "Assists": 0, 
+            "Yellow Cards" :0,
+            "Red Cards"  :0
          },
 
          "1" : {
-            "appearances" :1,
-            "goals" :1, 
-            "assists": 0, 
-            "yellow" :0,
-            "red"  :0
+            "Appearances" :1,
+            "Goals" :1, 
+            "Assists": 0, 
+            "Yellow Cards" :0,
+            "Red Cards"  :0
          },
          "2" : {
-            "appearances" :2,
-            "goals" :2, 
-            "assists": 0, 
-            "yellow" :0,
-            "red"  :0
+            "Appearances" :2,
+            "Goals" :2, 
+            "Assists": 0, 
+            "Yellow Cards" :0,
+            "Red Cards"  :0
          },
           "3" : {
-            "appearances" :3,
-            "goals" :2, 
-            "assists": 0, 
-            "yellow" :0,
-            "red"  :0
+            "Appearances" :3,
+            "Goals" :2, 
+            "Assists": 0, 
+            "Yellow Cards" :0,
+            "Red Cards"  :0
          },
           "4" : {
-            "appearances" :4,
-            "goals" :3, 
-            "assists": 0, 
-            "yellow" :1,
-            "red"  :0
+            "Appearances" :4,
+            "Goals" :3, 
+            "Assists": 0, 
+            "Yellow Cards" :1,
+            "Red Cards"  :0
          },
            "5" : {
-            "appearances" :5,
-            "goals" :3, 
-            "assists": 0, 
-            "yellow" :1,
-            "red"  :0
+            "Appearances" :5,
+            "Goals" :3, 
+            "Assists": 0, 
+            "Yellow Cards" :1,
+            "Red Cards"  :0
          },
           "6" : {
-            "appearances" :6,
-            "goals" :3, 
-            "assists": 0, 
-            "yellow" :1,
-            "red"  :0
+            "Appearances" :6,
+            "Goals" :3, 
+            "Assists": 0, 
+            "Yellow Cards" :1,
+            "Red Cards"  :0
          },                  
            "7" : {
-            "appearances" :7,
-            "goals" :4, 
-            "assists": 0, 
-            "yellow" :1,
-            "red"  :0
+            "Appearances" :7,
+            "Goals" :4, 
+            "Assists": 0, 
+            "Yellow Cards" :1,
+            "Red Cards"  :0
          },
           "8" : {
-            "appearances" :8,
-            "goals" :5, 
-            "assists": 0, 
-            "yellow" :1,
-            "red"  :0
+            "Appearances" :8,
+            "Goals" :5, 
+            "Assists": 0, 
+            "Yellow Cards" :1,
+            "Red Cards"  :0
          },
            "9" : {
-            "appearances" :9,
-            "goals" :6, 
-            "assists": 0, 
-            "yellow" :1,
-            "red"  :0
+            "Appearances" :9,
+            "Goals" :6, 
+            "Assists": 0, 
+            "Yellow Cards" :1,
+            "Red Cards"  :0
          },
           "10" : {
-            "appearances" :10,
-            "goals" :10, 
-            "assists": 0, 
-            "yellow" :1,
-            "red"  :0
+            "Appearances" :10,
+            "Goals" :10, 
+            "Assists": 0, 
+            "Yellow Cards" :1,
+            "Red Cards"  :0
          }, 
       "11" : {
-            "appearances" :11,
-            "goals" :11, 
-            "assists": 1, 
-            "yellow" :1,
-            "red"  :0
+            "Appearances" :11,
+            "Goals" :11, 
+            "Assists": 1, 
+            "Yellow Cards" :1,
+            "Red Cards"  :0
          }, 
       "12" : {
-            "appearances" :12,
-            "goals" :11, 
-            "assists": 1, 
-            "yellow" :1,
-            "red"  :0
+            "Appearances" :12,
+            "Goals" :11, 
+            "Assists": 1, 
+            "Yellow Cards" :1,
+            "Red Cards"  :0
          }, 
 	  "13" : {
-            "appearances" :13,
-            "goals" :11, 
-            "assists": 1, 
-            "yellow" :2,
-            "red"  :0
+            "Appearances" :13,
+            "Goals" :11, 
+            "Assists": 1, 
+            "Yellow Cards" :2,
+            "Red Cards"  :0
          }, 
 	  "14" : {
-            "appearances" :14,
-            "goals" :12, 
-            "assists": 1, 
-            "yellow" :2,
-            "red"  :0
+            "Appearances" :14,
+            "Goals" :12, 
+            "Assists": 1, 
+            "Yellow Cards" :2,
+            "Red Cards"  :0
          }, 
 	  "15" : {
-            "appearances" :15,
-            "goals" :12, 
-            "assists": 1, 
-            "yellow" :3,
-            "red"  :0
+            "Appearances" :15,
+            "Goals" :12, 
+            "Assists": 1, 
+            "Yellow Cards" :3,
+            "Red Cards"  :0
          }, 
 	 "16" : {
-            "appearances" :16,
-            "goals" :14, 
-            "assists": 1, 
-            "yellow" :3,
-            "red"  :0
+            "Appearances" :16,
+            "Goals" :14, 
+            "Assists": 1, 
+            "Yellow Cards" :3,
+            "Red Cards"  :0
          }, 
 	 "17" : {
-            "appearances" :17,
-            "goals" :14, 
-            "assists": 1, 
-            "yellow" :3,
-            "red"  :0
+            "Appearances" :17,
+            "Goals" :14, 
+            "Assists": 1, 
+            "Yellow Cards" :3,
+            "Red Cards"  :0
          }, 
 	 "18" : {
-            "appearances" :18,
-            "goals" :17, 
-            "assists": 1, 
-            "yellow" :4,
-            "red"  :0
+            "Appearances" :18,
+            "Goals" :17, 
+            "Assists": 1, 
+            "Yellow Cards" :4,
+            "Red Cards"  :0
          }, 
 	"19" : {
-            "appearances" :19,
-            "goals" :17, 
-            "assists": 1, 
-            "yellow" :6,
-            "red"  :0
+            "Appearances" :19,
+            "Goals" :17, 
+            "Assists": 1, 
+            "Yellow Cards" :6,
+            "Red Cards"  :0
          }
        }
     }, 
@@ -163,145 +163,145 @@
      "team":"Real Madrid",
       "statistics" : { 
          "0" : {
-            "appearances" :0,
-            "goals" :0, 
-            "assists": 0, 
-            "yellow" :0,
-            "red"  :0
+            "Appearances" :0,
+            "Goals" :0, 
+            "Assists": 0, 
+            "Yellow Cards" :0,
+            "Red Cards"  :0
          },
 
          "1" : {
-            "appearances" :1,
-            "goals" :2, 
-            "assists": 0, 
-            "yellow" :0,
-            "red"  :0
+            "Appearances" :1,
+            "Goals" :2, 
+            "Assists": 0, 
+            "Yellow Cards" :0,
+            "Red Cards"  :0
          },
           "2" : {
-            "appearances" :2,
-            "goals" : 2, 
-            "assists": 0,
-            "yellow" :0,
-            "red"   : 0                 
+            "Appearances" :2,
+            "Goals" : 2, 
+            "Assists": 0,
+            "Yellow Cards" :0,
+            "Red Cards"   : 0                 
          },
           "3" : {                
-            "appearances" :3,
-            "goals" : 2, 
-	    "assists": 2,
-            "yellow" :0,
-            "red"   :0
+            "Appearances" :3,
+            "Goals" : 2, 
+	    "Assists": 2,
+            "Yellow Cards" :0,
+            "Red Cards"   :0
          },
           "4" : {
-            "appearances" : 4,
-            "goals" :2, 
-	    "assists": 3,
-            "yellow" :0,
-            "red"    :0
+            "Appearances" : 4,
+            "Goals" :2, 
+	    "Assists": 3,
+            "Yellow Cards" :0,
+            "Red Cards"    :0
          },
           "5" : {
-            "appearances" : 5,
-            "goals" : 6, 
-	    "assists": 5,
-            "yellow": 0,
-            "red" :0
+            "Appearances" : 5,
+            "Goals" : 6, 
+	    "Assists": 5,
+            "Yellow Cards": 0,
+            "Red Cards" :0
          },
           "6" : {
-            "appearances" :6,
-            "goals" : 6, 
-            "assists": 5,
-            "yellow" :0,
-            "red" :0
+            "Appearances" :6,
+            "Goals" : 6, 
+            "Assists": 5,
+            "Yellow Cards" :0,
+            "Red Cards" :0
          },
           "7" : {
-            "appearances" :7,
-            "goals" : 8, 
-	    "assists": 7,
-            "yellow" :0,
-            "red"    :0
+            "Appearances" :7,
+            "Goals" : 8, 
+	    "Assists": 7,
+            "Yellow Cards" :0,
+            "Red Cards"    :0
          },
           "8" : {
-            "appearances" :8,
-            "goals" :9, 
-	    "assists": 7,
-            "yellow" :0,
-            "red"    :0
+            "Appearances" :8,
+            "Goals" :9, 
+	    "Assists": 7,
+            "Yellow Cards" :0,
+            "Red Cards"    :0
          },
           "9" : {
-            "appearances" :9,
-            "goals" :10, 
-	    "assists": 7,
-            "yellow" :0,
-            "red"    :0
+            "Appearances" :9,
+            "Goals" :10, 
+	    "Assists": 7,
+            "Yellow Cards" :0,
+            "Red Cards"    :0
          },
           "10" : {
-            "appearances" :10,
-            "goals" :11, 
-	    "assists": 8,
-            "yellow" :0,
-            "red"   :0
+            "Appearances" :10,
+            "Goals" :11, 
+	    "Assists": 8,
+            "Yellow Cards" :0,
+            "Red Cards"   :0
          }, 
 	  "11" : {
-            "appearances" :11,
-            "goals" :12, 
-	    "assists": 9,
-            "yellow" :0,
-            "red"   :0
+            "Appearances" :11,
+            "Goals" :12, 
+	    "Assists": 9,
+            "Yellow Cards" :0,
+            "Red Cards"   :0
          }, 
           "12" : {
-            "appearances" :12,
-            "goals" :12, 
-	    "assists": 9,
-            "yellow" :1,
-            "red"   :0
+            "Appearances" :12,
+            "Goals" :12, 
+	    "Assists": 9,
+            "Yellow Cards" :1,
+            "Red Cards"   :0
          }, 
 	  "13" : {
-            "appearances" :13,
-            "goals" :12, 
-	    "assists": 9,
-            "yellow" :1,
-            "red"   :0
+            "Appearances" :13,
+            "Goals" :12, 
+	    "Assists": 9,
+            "Yellow Cards" :1,
+            "Red Cards"   :0
          }, 
 	  "14" : {
-            "appearances" :14,
-            "goals" :14, 
-	    "assists": 9,
-            "yellow" :1,
-            "red"   :0
+            "Appearances" :14,
+            "Goals" :14, 
+	    "Assists": 9,
+            "Yellow Cards" :1,
+            "Red Cards"   :0
          }, 
 	  "15" : {
-            "appearances" :15,
-            "goals" :12, 
-	    "assists": 9,
-            "yellow" :1,
-            "red"   :0
+            "Appearances" :15,
+            "Goals" :12, 
+	    "Assists": 9,
+            "Yellow Cards" :1,
+            "Red Cards"   :0
          }, 
 	  "16" : {
-            "appearances" :16,
-            "goals" :15, 
-	    "assists": 9,
-            "yellow" :1,
-            "red"   :0
+            "Appearances" :16,
+            "Goals" :15, 
+	    "Assists": 9,
+            "Yellow Cards" :1,
+            "Red Cards"   :0
          }, 
 	  "17" : {
-            "appearances" :17,
-            "goals" :18, 
-	    "assists": 9,
-            "yellow" :1,
-            "red"   :0
+            "Appearances" :17,
+            "Goals" :18, 
+	    "Assists": 9,
+            "Yellow Cards" :1,
+            "Red Cards"   :0
          }, 
 	  "18" : {
-            "appearances" :18,
-            "goals" :18, 
-	    "assists": 9,
-            "yellow" :2,
-            "red"   :0
+            "Appearances" :18,
+            "Goals" :18, 
+	    "Assists": 9,
+            "Yellow Cards" :2,
+            "Red Cards"   :0
          },
 	  "19" : {
-            "appearances" :19,
-            "goals" :21, 
-	    "assists": 9,
-            "yellow" :2,
-            "red"   :0
+            "Appearances" :19,
+            "Goals" :21, 
+	    "Assists": 9,
+            "Yellow Cards" :2,
+            "Red Cards"   :0
          }
 	  
        }
@@ -317,146 +317,146 @@
      "team":"Barcelona",
       "statistics" : { 
          "0" : {
-            "appearances" :0,
-            "goals" :0, 
-            "assists": 0, 
-            "yellow" :0,
-            "red"  :0
+            "Appearances" :0,
+            "Goals" :0, 
+            "Assists": 0, 
+            "Yellow Cards" :0,
+            "Red Cards"  :0
          },
 
          "1" : {
-            "appearances" :1,
-            "goals" :2,
-            "assists":0,
-            "yellow" :0,
-            "red"  :0
+            "Appearances" :1,
+            "Goals" :2,
+            "Assists":0,
+            "Yellow Cards" :0,
+            "Red Cards"  :0
          },
           "2" : {
-            "appearances" :2,
-            "goals" : 2,
-            "assists":0,
-            "yellow" :0,
-            "red"   : 0                 
+            "Appearances" :2,
+            "Goals" : 2,
+            "Assists":0,
+            "Yellow Cards" :0,
+            "Red Cards Cards"   : 0                 
          },
           "3" : {                
-            "appearances" :3,
-            "goals" : 2,
-            "assists":2,
-            "yellow" :0,
-            "red"   :0
+            "Appearances" :3,
+            "Goals" : 2,
+            "Assists":2,
+            "Yellow Cards" :0,
+            "Red Cards"   :0
          },
           "4" : {
-            "appearances" : 4,
-            "goals" :2,
-            "assists":3,
-            "yellow" :0,
-            "red"    :0
+            "Appearances" : 4,
+            "Goals" :2,
+            "Assists":3,
+            "Yellow Cards" :0,
+            "Red Cards"    :0
          },
           "5" : {
-            "appearances" :5,
-            "goals" : 3,
-            "assists":5,
-            "yellow" :0,
-            "red" :0
+            "Appearances" :5,
+            "Goals" : 3,
+            "Assists":5,
+            "Yellow Cards" :0,
+            "Red Cards" :0
          },
           "6" : {
-            "appearances" :6,
-            "goals" : 3,
-            "assists":5,
-            "yellow" :0,
-            "red" :0
+            "Appearances" :6,
+            "Goals" : 3,
+            "Assists":5,
+            "Yellow Cards" :0,
+            "Red Cards" :0
          },
           "7" : {
-            "appearances" :7 ,
-            "goals" : 5,
-            "assists":7,
-            "yellow" :0,
-            "red"    :0
+            "Appearances" :7 ,
+            "Goals" : 5,
+            "Assists":7,
+            "Yellow Cards" :0,
+            "Red Cards"    :0
          },
           "8" : {
-            "appearances" :8,
-            "goals" :6,
-            "assists":7,
-            "yellow" :0,
-            "red"    :0
+            "Appearances" :8,
+            "Goals" :6,
+            "Assists":7,
+            "Yellow Cards" :0,
+            "Red Cards"    :0
          },
           "9" : {
-            "appearances" :9,
-            "goals" :7,
-            "assists":7,
-            "yellow" :0,
-            "red"    :0
+            "Appearances" :9,
+            "Goals" :7,
+            "Assists":7,
+            "Yellow Cards" :0,
+            "Red Cards"    :0
          },
           "10" : {
-            "appearances" :10,
-            "goals" :8,
-            "assists":8,
-            "yellow" :0,
-            "red"   :0
+            "Appearances" :10,
+            "Goals" :8,
+            "Assists":8,
+            "Yellow Cards" :0,
+            "Red Cards"   :0
              },      
     
          "11" : {
-            "appearances" :11,
-            "goals" :9,
-            "assists":9,
-            "yellow" :0,
-            "red"    :0
+            "Appearances" :11,
+            "Goals" :9,
+            "Assists":9,
+            "Yellow Cards" :0,
+            "Red Cards"    :0
          },
           "12" : {
-            "appearances" :12,
-            "goals" :9,
-            "assists":9,
-            "yellow" :1,
-            "red"    :0
+            "Appearances" :12,
+            "Goals" :9,
+            "Assists":9,
+            "Yellow Cards" :1,
+            "Red Cards"    :0
          },
           "13" : {
-            "appearances" :13,
-            "goals" :9,
-            "assists":9,
-            "yellow" :1,
-            "red"    :0
+            "Appearances" :13,
+            "Goals" :9,
+            "Assists":9,
+            "Yellow Cards" :1,
+            "Red Cards"    :0
          },
           "14" : {
-            "appearances" :14,
-            "goals" :11,
-            "assists":9,
-            "yellow" :1,
-            "red"    :0
+            "Appearances" :14,
+            "Goals" :11,
+            "Assists":9,
+            "Yellow Cards" :1,
+            "Red Cards"    :0
          },
           "15" : {
-            "appearances" :15,
-            "goals" :11,
-            "assists":9,
-            "yellow" :1,
-            "red"    :0
+            "Appearances" :15,
+            "Goals" :11,
+            "Assists":9,
+            "Yellow Cards" :1,
+            "Red Cards"    :0
          },                   
           "16" : {
-            "appearances" :16,        
-            "goals" :14,
-            "assists":9,               
-            "yellow" :1,               
-            "red"    :0
+            "Appearances" :16,        
+            "Goals" :14,
+            "Assists":9,               
+            "Yellow Cards" :1,               
+            "Red Cards"    :0
          },
           "17" : {
-            "appearances" :17,
-            "goals" :17,
-            "assists":9,
-            "yellow" :1,
-            "red"    :0
+            "Appearances" :17,
+            "Goals" :17,
+            "Assists":9,
+            "Yellow Cards" :1,
+            "Red Cards"    :0
          },
           "18" : {
-            "appearances" :18,
-            "goals" :17,
-            "assists":9,
-            "yellow" :2,
-            "red"    :0
+            "Appearances" :18,
+            "Goals" :17,
+            "Assists":9,
+            "Yellow Cards" :2,
+            "Red Cards"    :0
          },
           "19" : {
-            "appearances" :19,
-            "goals" :20,
-            "assists":9,
-            "yellow" :2,
-            "red"    :0
+            "Appearances" :19,
+            "Goals" :20,
+            "Assists":9,
+            "Yellow Cards" :2,
+            "Red Cards"    :0
            } 
         }
     }
