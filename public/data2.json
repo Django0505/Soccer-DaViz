@@ -26,8 +26,8 @@
             "Appearances" :2,
             "Goals" :2, 
             "Assists": 0, 
-            "Yellow Cards" :0,
-            "Red Cards"  :0
+            "Yellow Cards": 0,
+            "Red Cards" : 0
          },
           "3" : {
             "Appearances" :3,
@@ -157,7 +157,7 @@
 
     {
 
-     "name":"Christiano Ronaldo", 
+     "name":"Cristiano Ronaldo", 
      "picURL" : "cristiano-ronaldo_416x416.jpg",
      "age" :29,
      "team":"Real Madrid",
@@ -334,9 +334,9 @@
           "2" : {
             "Appearances" :2,
             "Goals" : 2,
-            "Assists":0,
+            "Assists": 0,
             "Yellow Cards" :0,
-            "Red Cards Cards"   : 0                 
+            "Red Cards"   : 0                 
          },
           "3" : {                
             "Appearances" :3,
